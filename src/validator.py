@@ -1,4 +1,4 @@
-Allowed_models={"claude-haiku","claude-opus","claude-sonnet"}
+Allowed_models={"claude-haiku","claude-opus","claude-sonnet","llama2"}
 def validate_req(req):
     model=validate_model(req["model"])
     message=validate_message(req['messages'])

@@ -9,3 +9,4 @@ def ask(prompt:str)-> str:
 
 if __name__== "__main__":
     print(ask("Explain what a token is in one sentence"))
+    
